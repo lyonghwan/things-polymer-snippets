@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+<neon-animated-pages selected="${1:0}" entry-animation="${1:slide-from-fright-animation}" exit-animation="${2:slide-left-animation}">
+    <neon-animatable>$3</neon-animatable>
+    <neon-animatable>$4</neon-animatable>
+    <neon-animatable>$5</neon-animatable>
+</neon-animated-pages>
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>neon-animated-pages</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>text.html</scope>
+</snippet>
